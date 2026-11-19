@@ -1,0 +1,25 @@
+debug: false
+automation-blocking: true
+holograms:
+  enabled: true
+  height: 1.75
+  scale: 0.75
+  show-fill: true
+  cleanup:
+    enabled: true
+    interval-seconds: 300
+    restore-missing: true
+navigation:
+  compass:
+    enabled: true
+    prevent-movement: true
+    prevent-dropping: true
+    prevent-duplication: true
+chests:
+  stone: { enabled: true, pages: 3, color: "gray" }
+  iron: { enabled: true, pages: 6, color: "white" }
+  diamond: { enabled: true, pages: 9, color: "aqua" }
+recipes:
+  stone: { enabled: true, ingredient: STONE_BRICKS }
+  iron: { enabled: true, ingredient: IRON_BLOCK }
+  diamond: { enabled: true, ingredient: DIAMOND_BLOCK }

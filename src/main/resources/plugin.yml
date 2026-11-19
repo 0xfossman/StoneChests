@@ -1,0 +1,15 @@
+name: StoneChests
+version: ${version}
+main: de.ungarnet.stonechests.StoneChests
+api-version: '26.3'
+author: UngarNet
+description: Craftable, persistent multi-page survival chests.
+commands:
+  stonechests:
+    aliases: [sc]
+    description: StoneChests command
+    usage: /stonechests [info|reload]
+permissions:
+  stonechests.use: { default: true }
+  stonechests.admin: { default: op }
+  stonechests.reload: { default: op }
